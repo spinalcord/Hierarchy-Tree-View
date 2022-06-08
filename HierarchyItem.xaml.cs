@@ -21,7 +21,6 @@ namespace EnhancedComponents
         File,
         Folder
     }
-    //
 
     // A Token is a hint, so that we know there is something in a HierarchyItem (type:folder), if we expand the item we are going to read the information in the token.
     // If we expand the folder, we can read the information in the token (=> load more files) and then we remove the token,  
