@@ -4,7 +4,7 @@ WPF doesn't have a native solution to display a filesystem. Here is a lightweigh
 # Basic Commands
 
 
-• Initialize the filesystem => Loads the filesystem
+• Initialize the filesystem
 
 HierarchyComponent.filesystem = "C:/Users/..."
 
