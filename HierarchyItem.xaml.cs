@@ -16,8 +16,6 @@ using System.Diagnostics;
 
 namespace EnhancedComponents
 {
-    //Test
-    //asafdlkj
     public enum HierarchyType
     {
         File,
