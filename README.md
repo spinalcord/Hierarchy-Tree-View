@@ -6,15 +6,15 @@ WPF doesn't have a native solution to display a filesystem. Here is a lightweigh
 
 • Initialize the filesystem
 
-HierarchyComponent.filesystem = "C:/Users/..."
+SomeHierarchyComponent.filesystem = "C:/Users/..."
 
 • Rename a file/folder
 
-Hierarchy.SelectedHierarchyItem.filename = "new Name"
+SomeHierarchyComponent.SelectedHierarchyItem.filename = "new Name"
 
 • Delete a file/folder
 
-Hierarchy.SelectedHierarchyItem.Delete();
+SomeHierarchyComponent.SelectedHierarchyItem.Delete();
 
 • More Commands
 
