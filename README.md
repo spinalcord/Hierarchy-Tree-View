@@ -16,7 +16,7 @@ SomeHierarchyComponent.SelectedHierarchyItem.filename = "new Name"
 
 SomeHierarchyComponent.SelectedHierarchyItem.Delete();
 
-• More Commands
+• More commands
 
 Avaible in the example.zip
 
