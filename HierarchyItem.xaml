@@ -1,0 +1,46 @@
+﻿<TreeViewItem x:Class="EnhancedComponents.HierarchyItem"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:EnhancedComponents"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+
+    <TreeViewItem.Header>
+        <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+            <Image x:Name="FolderIcon" Width="20" Height="20" Visibility="Collapsed">
+                <Image.Source>
+                    <DrawingImage>
+                        <DrawingImage.Drawing>
+                            <DrawingGroup ClipGeometry="M0,0 V48 H48 V0 H0 Z">
+                                <GeometryDrawing Brush="#FFFFA000" Geometry="F1 M48,48z M0,0z M40,12L22,12 18,8 8,8C5.8,8,4,9.8,4,12L4,20 44,20 44,16C44,13.8,42.2,12,40,12z" />
+                                <GeometryDrawing Brush="#FFFFCA28" Geometry="F1 M48,48z M0,0z M40,12L8,12C5.8,12,4,13.8,4,16L4,36C4,38.2,5.8,40,8,40L40,40C42.2,40,44,38.2,44,36L44,16C44,13.8,42.2,12,40,12z" />
+                            </DrawingGroup>
+                        </DrawingImage.Drawing>
+                    </DrawingImage>
+                </Image.Source>
+            </Image>
+            <Image x:Name="FileIcon" Width="20" Height="20" Visibility="Visible">
+                <Image.Source>
+                    <DrawingImage>
+                        <DrawingImage.Drawing>
+                            <DrawingGroup ClipGeometry="M0,0 V40 H40 V0 H0 Z">
+                                <GeometryDrawing Brush="#FFFFFFFF" Geometry="F1 M40,40z M0,0z M6.5,37.5L6.5,2.5 24.793,2.5 33.5,11.207 33.5,37.5z" />
+                                <GeometryDrawing Brush="#FF4788C7" Geometry="F1  M40,40z M0,0z M24.586,3L33,11.414 33,37 7,37 7,3 24.586,3 M25,2L6,2 6,38 34,38 34,11 25,2 25,2z" />
+                                <DrawingGroup Opacity="1">
+                                    <GeometryDrawing Brush="#FFDFF0FE" Geometry="F1 M40,40z M0,0z M24.5,11.5L24.5,2.5 24.793,2.5 33.5,11.207 33.5,11.5z" />
+                                    <GeometryDrawing Brush="#FF4788C7" Geometry="F1 M40,40z M0,0z M25,3.414L32.586,11 25,11 25,3.414 M25,2L24,2 24,12 34,12 34,11 25,2 25,2z" />
+                                </DrawingGroup>
+                            </DrawingGroup>
+                        </DrawingImage.Drawing>
+                    </DrawingImage>
+                </Image.Source>
+            </Image>
+            
+            <TextBlock x:Name="textBlock" Margin="5,0,0,0" VerticalAlignment="Center"></TextBlock>
+        </StackPanel>
+
+    </TreeViewItem.Header>
+
+</TreeViewItem>
