@@ -1,5 +1,5 @@
 # Hierarchy-Tree-View
-WPF doesn't have a native solution to display a filesystem. Here is a lightweight solution to use a filesystem inside your application.
+WPF doesn't have a native solution to display a filesystem. Here is a lightweight solution to use a filesystem inside your application. This TreeView doesn't load the entire filesystem, instead it will place a token inside a folder node. If you expand the folder, which contains the token, more files and folders will be loaded, this method allows to use heavy filesystem without attacking the performance.
 
 # Basic Commands
 
